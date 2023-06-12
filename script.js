@@ -31,9 +31,13 @@ const lookup = {
   ",": ",",
 };
 
-function rot13(encodedStr) {
+function rot13(Str) {
   let decodedArr = []; // Your Result goes here
   // Only change code below this line
+  for(int i=0;i<arr.length;i++){
+	  if(lookup[Str[i]]==undefined) decodedArr.push(Str[i]]);
+	  else decodedArr.push(lookup[Str[i]])
+  }
 
   return; //return decodedArr
 }
