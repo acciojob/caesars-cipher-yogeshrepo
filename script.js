@@ -30,17 +30,19 @@ const lookup = {
   "?": "?",
   ",": ",",
 };
-
-function rot13(Str) {
+ 
+function rot13(encodedStr) {
   let decodedArr = []; // Your Result goes here
   // Only change code below this line
-  for(int i=0;i<arr.length;i++){
-	  if(lookup[Str[i]]==undefined) decodedArr.push(Str[i]]);
-	  else decodedArr.push(lookup[Str[i]])
-  }
+	for(let i=0; i<str.lenght:i++){
+		if(lookup[str[i]]==undefined){
+			decodedArr.push(str[i])
+ 
+		else decodedArr.push(lookup[str[i]])
+	}
+ 
+  return; //return decodedArr
 
-  return decodedArr; //return decodedArr
-}
 
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
 
